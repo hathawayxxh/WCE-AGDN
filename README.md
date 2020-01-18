@@ -5,3 +5,6 @@ by [Xiaohan Xing](https://sites.google.com/view/xhxing), [Yixuan Yuan](http://ww
 
 ## Introduction:
 In order to make better diagnosis of the small lesions in WCE images, we propose a two-branch Attention Guided Deformation Network (AGDN) which utilizes attention maps to localize and zoom in lesion regions, thus enabling better inspection. Inside the AGDN model, we also devise a novel Third-order Long-range Feature Aggregation (TLFA) module and a Deformation based Attention Consistency (DAC) loss to promote the classification performance. 
+
+
+## Framework
