@@ -8,3 +8,4 @@ In order to make better diagnosis of the small lesions in WCE images, we propose
 
 
 ## Framework
+![image](https://github.com/hathawayxxh/WCE-AGDN/blob/master/overview_new1.png)
