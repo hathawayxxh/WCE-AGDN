@@ -34,11 +34,16 @@ Python 2.7
 
 ## Train and Test
 Here are example commands for training or testing the AGDN model.
-- **Train:** python run_2dense_net.py --train
-- **Test:** python run_2dense_net.py --test
+- **Train:** 
+
+python run_2dense_net.py --train
+- **Test:** 
+
+python run_2dense_net.py --test
 
 ## Citation
 If you find our work useful in your research or if you use parts of this code, please consider citing our paper:
+
 to be uploaded.
 
 ## Questions
