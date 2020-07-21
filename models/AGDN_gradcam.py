@@ -23,7 +23,6 @@ from skimage import io, data, color
 from matplotlib import pyplot as plt
 from scipy.misc import imread, imresize
 
-# from utils_jizhi import *
 
 from tensorflow.python.framework import ops
 from tensorflow.python.ops import gen_nn_ops
@@ -877,7 +876,7 @@ class DenseNet:
         total_labels1 = []
 
         for i in range(self.num_train // batch_size):
-            # heartbeat()
+            
             high_images, low_images, labels = self.sess.run([
                 self.train_high_image_batch, self.train_low_image_batch, self.train_label_batch])
 
@@ -1004,7 +1003,7 @@ class DenseNet:
         inflam_feature = np.zeros(201)
 
         for i in range(self.num_test // batch_size):
-            # heartbeat()
+     
             test_high_images, test_low_images, test_labels = self.sess.run([
                 self.test_high_image_batch, self.test_low_image_batch, self.test_label_batch])
 
