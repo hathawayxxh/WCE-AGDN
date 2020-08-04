@@ -2,7 +2,7 @@
 
 by [Xiaohan Xing](https://sites.google.com/view/xhxing), [Yixuan Yuan](http://www.cityu.edu.hk/stfprofile/yixuyuan.htm), [Max Q.-H. Meng](https://www.ee.cuhk.edu.hk/~qhmeng/).
 
-This paper is accepted by Transactions on Medical Imaging (TMI) 2020. 
+This [paper](https://ieeexplore.ieee.org/document/9143178) is accepted by Transactions on Medical Imaging (TMI) 2020. 
 
 ## Introduction
 In order to make better diagnosis of the small lesions in WCE images, we propose a two-branch Attention Guided Deformation Network (AGDN) which utilizes attention maps to localize and zoom in lesion regions, thus enabling better inspection. In order to improve the feature representation and discrimination ability of the AGDN model, we devise and insert a novel Third-order Long-range Feature Aggregation (TLFA) module into the network. What's more, we propose a novel Deformation based Attention Consistency (DAC) loss to achieve mutual promotion of the two branches. 
@@ -44,7 +44,13 @@ python run_2dense_net.py --test
 ## Citation
 If you find our work useful in your research or if you use parts of this code, please consider citing our paper:
 
-to be uploaded.
+@article{xing2020zoom,
+  title={Zoom in Lesions for Better Diagnosis: Attention Guided Deformation Network for WCE Image Classification},
+  author={Xing, Xiaohan and Yuan, Yixuan and Meng, Max Q-H},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2020},
+  publisher={IEEE}
+}
 
 ## Questions
 Please contact "<xhxing@link.cuhk.edu.hk>".
