@@ -45,11 +45,17 @@ python run_2dense_net.py --test
 If you find our work useful in your research or if you use parts of this code, please consider citing our paper:
 
 @article{xing2020zoom,
+
   title={Zoom in Lesions for Better Diagnosis: Attention Guided Deformation Network for WCE Image Classification},
+  
   author={Xing, Xiaohan and Yuan, Yixuan and Meng, Max Q-H},
+  
   journal={IEEE Transactions on Medical Imaging},
+  
   year={2020},
+  
   publisher={IEEE}
+  
 }
 
 ## Questions
